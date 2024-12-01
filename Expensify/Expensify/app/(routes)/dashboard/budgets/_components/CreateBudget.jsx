@@ -34,8 +34,16 @@ function CreateBudget({ refreshData }) {
 
     console.log("Form Values:", { name, amount, emojiIcon });
 
-    if (!name || !amount || isNaN(amount) || amount <= 0) {
-      toast("Please enter valid budget name and amount.");
+    // Validate name and amount
+    if (!name || name.trim() === "") {
+      toast("Please enter a valid budget name.");
+      return;
+    }
+
+    // Validate amount (positive integer and no decimals)
+    const parsedAmount = parseFloat(amount);
+    if (!amount || isNaN(parsedAmount) || parsedAmount <= 0 || parsedAmount % 1 !== 0) {
+      toast("Please enter a valid budget amount (positive integer, no decimals).");
       return;
     }
 
@@ -43,7 +51,7 @@ function CreateBudget({ refreshData }) {
       const result = await db.insert(Budgets)
         .values({
           name: name,
-          amount: parseFloat(amount), // Store the amount directly
+          amount: parsedAmount, // Store the amount as an integer
           createdBy: user?.primaryEmailAddress?.emailAddress,
           icon: emojiIcon,
         })
@@ -121,7 +129,7 @@ function CreateBudget({ refreshData }) {
                 />
               </div>
               <Button
-                disabled={!(name && amount && !isNaN(amount) && parseFloat(amount) > 0)}
+                disabled={!(name && amount && !isNaN(amount) && parseFloat(amount) > 0 && parseFloat(amount) % 1 === 0)}
                 onClick={() => onCreateBudget()}
                 className="mt-5 w-full bg-[#3a3a3a] text-white hover:bg-[#555] p-3 rounded-md"
               >

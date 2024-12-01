@@ -23,7 +23,20 @@ function AddExpenses({ budgetId, user, refreshData }) {
   const PAYMENT_METHODS = ['Cash', 'Credit', 'Debit', 'UPI', 'Cheque'];
 
   const addNewExpense = async () => {
-    if (!name || !amount || !paymentMethod || !currency) {
+    // Validate name and amount
+    if (!name || name.trim() === "") {
+      toast.error("Please enter a valid expense name.");
+      return;
+    }
+
+    // Validate amount (positive integer and no decimals)
+    const parsedAmount = parseFloat(amount);
+    if (!amount || isNaN(parsedAmount) || parsedAmount <= 0 || parsedAmount % 1 !== 0) {
+      toast.error("Please enter a valid expense amount (positive integer, no decimals).");
+      return;
+    }
+
+    if (!paymentMethod || !currency) {
       toast.error("Please fill in all fields.");
       return;
     }
