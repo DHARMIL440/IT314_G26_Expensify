@@ -49,52 +49,58 @@ const Page = () => {
       toast.error("Please select both start and end dates.");
       return;
     }
-
+  
     // Convert start and end dates to Date objects
     const start = new Date(startDate);
     const end = new Date(endDate);
-
+  
+    // Validate that start date is <= end date
+    if (start > end) {
+      toast.error("Start date should be less than or equal to the end date.");
+      return;
+    }
+  
     // Normalize start and end dates to full day range
     start.setHours(0, 0, 0, 0);
     end.setHours(23, 59, 59, 999);
-
+  
     // Filter expenses based on selected date range and user ID
     const filteredByDate = latestExpenses.filter((expense) => {
       const expenseDate = new Date(expense.createdAt);
-
+  
       if (isNaN(expenseDate.getTime())) {
         console.error("Invalid expense date:", expense.createdAt);
         return false;
       }
-
+  
       expenseDate.setHours(0, 0, 0, 0);
       return expenseDate >= start && expenseDate <= end;
     });
-
+  
     if (filteredByDate.length === 0) {
       toast.error("No expenses found for the selected date range.");
       return;
     }
-
+  
     const doc = new jsPDF();
-
+  
     // Add title and date range
     doc.setFontSize(20);
     doc.text("Expense Report", 20, 20);
     doc.setFontSize(12);
     doc.text(`From: ${start.toLocaleDateString()}`, 20, 30);
     doc.text(`To: ${end.toLocaleDateString()}`, 20, 40);
-
+  
     // Table headers
     doc.setFontSize(12);
     doc.text("Name", 20, 50);
     doc.text("Amount", 60, 50);
     doc.text("Date", 120, 50);
     doc.text("Payment Method", 160, 50);
-
+  
     let y = 60;
     let total = 0;
-
+  
     filteredByDate.forEach((expense) => {
       doc.text(expense.name, 20, y);
       doc.text(formatAmount(expense.amount), 60, y);
@@ -103,15 +109,16 @@ const Page = () => {
       total += expense.amount;
       y += 10;
     });
-
+  
     // Add total expenses
     doc.setFontSize(14);
     doc.text(`Total Expenses: ${formatAmount(total)}`, 20, y + 10);
-
+  
     // Save the PDF
     doc.save("expense_report.pdf");
     toast.success("Expense report downloaded successfully!");
   };
+  
 
   return (
     <div className="p-8 min-h-screen bg-gradient-to-b from-black via-gray-900 to-[#0b234a] text-white">
