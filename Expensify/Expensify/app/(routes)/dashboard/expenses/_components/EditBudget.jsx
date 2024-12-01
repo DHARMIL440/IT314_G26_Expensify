@@ -35,23 +35,40 @@ function EditBudget({ budgetInfo, refreshData }) {
   }, [budgetInfo]);
 
   const onUpdateBudget = async () => {
-    // Ensure amount is a valid number, fallback to 0 if it's invalid
+    // Validation: Check if name is empty or amount is invalid
+    if (!name.trim()) {
+      toast.error("Budget name cannot be empty!");
+      return;
+    }
+  
     const validAmount = amount ? parseFloat(amount) : 0;
-
-    // Update the budget even if no changes
-    const result = await db.update(Budgets).set({
-      name: name,
-      amount: validAmount,  // Ensure the amount is a valid number
-      icon: emojiIcon,
-    }).where(eq(Budgets.id, budgetInfo.id))
-      .returning();
-
-    if (result) {
-      refreshData();
-      toast("Budget Updated!");
-      setOpenDialog(false); // Close the dialog after updating the budget
+    if (validAmount < 0) {
+      toast.error("Budget amount must be greater than or equal to 0!");
+      return;
+    }
+  
+    try {
+      // Update the budget
+      const result = await db
+        .update(Budgets)
+        .set({
+          name: name,
+          amount: validAmount,
+          icon: emojiIcon,
+        })
+        .where(eq(Budgets.id, budgetInfo.id))
+        .returning();
+  
+      if (result) {
+        refreshData();
+        toast.success("Budget Updated!");
+        setOpenDialog(false); // Close the dialog after updating the budget
+      }
+    } catch (error) {
+      toast.error("Failed to update budget. Please try again.");
     }
   };
+  
 
   return (
     <div>
