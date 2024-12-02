@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react';
-import BudgetList from "@/app/(routes)/dashboard/budgets/_components/BudgetList"; // Updated import path
+import BudgetList from "@/app/(routes)/dashboard/budgets/_components/BudgetList"; 
 
 
 function Budget() {

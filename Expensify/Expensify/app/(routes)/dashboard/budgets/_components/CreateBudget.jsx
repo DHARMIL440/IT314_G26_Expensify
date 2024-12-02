@@ -25,7 +25,6 @@ function CreateBudget({ refreshData }) {
   const [openDialog, setOpenDialog] = useState(false);
   const { user } = useUser();
 
-  // Function to handle budget creation
   const onCreateBudget = async () => {
     if (!db || !db.insert) {
       toast("Database connection error.");
@@ -34,13 +33,11 @@ function CreateBudget({ refreshData }) {
 
     console.log("Form Values:", { name, amount, emojiIcon });
 
-    // Validate name and amount
     if (!name || name.trim() === "") {
       toast("Please enter a valid budget name.");
       return;
     }
 
-    // Validate amount (positive integer and no decimals)
     const parsedAmount = parseFloat(amount);
     if (!amount || isNaN(parsedAmount) || parsedAmount <= 0 || parsedAmount % 1 !== 0) {
       toast("Please enter a valid budget amount (positive integer, no decimals).");
@@ -51,7 +48,7 @@ function CreateBudget({ refreshData }) {
       const result = await db.insert(Budgets)
         .values({
           name: name,
-          amount: parsedAmount, // Store the amount as an integer
+          amount: parsedAmount,
           createdBy: user?.primaryEmailAddress?.emailAddress,
           icon: emojiIcon,
         })
