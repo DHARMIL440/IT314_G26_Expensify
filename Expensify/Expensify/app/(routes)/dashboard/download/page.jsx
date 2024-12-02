@@ -19,13 +19,12 @@ const Page = () => {
       if (!user?.id) return;
 
       try {
-        // Fetch expenses for the current user
         const expensesData = await db
           .select()
           .from(Expenses)
-          .where(Expenses.userId, user.id); // Correct syntax for Drizzle ORM
+          .where(Expenses.userId, user.id); 
         
-        setLatestExpenses(expensesData); // Store the fetched data in the state
+        setLatestExpenses(expensesData);
       } catch (error) {
         console.error("Error fetching expenses:", error);
         toast.error("Failed to fetch expenses");
@@ -50,21 +49,17 @@ const Page = () => {
       return;
     }
   
-    // Convert start and end dates to Date objects
     const start = new Date(startDate);
     const end = new Date(endDate);
   
-    // Validate that start date is <= end date
     if (start > end) {
       toast.error("Start date should be less than or equal to the end date.");
       return;
     }
   
-    // Normalize start and end dates to full day range
     start.setHours(0, 0, 0, 0);
     end.setHours(23, 59, 59, 999);
   
-    // Filter expenses based on selected date range and user ID
     const filteredByDate = latestExpenses.filter((expense) => {
       const expenseDate = new Date(expense.createdAt);
   
@@ -84,14 +79,12 @@ const Page = () => {
   
     const doc = new jsPDF();
   
-    // Add title and date range
     doc.setFontSize(20);
     doc.text("Expense Report", 20, 20);
     doc.setFontSize(12);
     doc.text(`From: ${start.toLocaleDateString()}`, 20, 30);
     doc.text(`To: ${end.toLocaleDateString()}`, 20, 40);
   
-    // Table headers
     doc.setFontSize(12);
     doc.text("Name", 20, 50);
     doc.text("Amount", 60, 50);
@@ -110,11 +103,9 @@ const Page = () => {
       y += 10;
     });
   
-    // Add total expenses
     doc.setFontSize(14);
     doc.text(`Total Expenses: ${formatAmount(total)}`, 20, y + 10);
   
-    // Save the PDF
     doc.save("expense_report.pdf");
     toast.success("Expense report downloaded successfully!");
   };
@@ -148,7 +139,6 @@ const Page = () => {
         </button>
       </div>
 
-      {/* Optionally, display the list of expenses on the page */}
       <div className="mt-8">
         <h3 className="text-2xl mb-4">Latest Expenses</h3>
         <ul className="space-y-4">
