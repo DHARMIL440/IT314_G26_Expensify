@@ -1,0 +1,420 @@
+[
+    {
+        "user": "U07LZ6NF14L",
+        "type": "message",
+        "ts": "1731591259.366359",
+        "client_msg_id": "10d110d7-3333-4396-bef7-3e22eaa9fd06",
+        "text": "Humare site me ek upgrade ka option hai\nI suggest to remove it kyuki upgraded version me kya extra facilities hongi ek expense-tracker me ?",
+        "team": "T07LWHRUXQB",
+        "user_team": "T07LWHRUXQB",
+        "source_team": "T07LWHRUXQB",
+        "user_profile": {
+            "avatar_hash": "ga37ff43a984",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a37ff43a9843bb50dd82e2fdbbaf346e.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+            "first_name": "202201419",
+            "real_name": "202201419",
+            "display_name": "",
+            "team": "T07LWHRUXQB",
+            "name": "202201419",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "GRrRd",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Humare site me ek upgrade ka option hai\nI suggest to remove it kyuki upgraded version me kya extra facilities hongi ek expense-tracker me ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07LZ6NF14L",
+        "type": "message",
+        "ts": "1731591270.672759",
+        "client_msg_id": "3305fda5-eb5e-4c56-8f0a-8bf91485fc47",
+        "text": "Also suggest uski jagah kya rakh sakte hai ?",
+        "team": "T07LWHRUXQB",
+        "user_team": "T07LWHRUXQB",
+        "source_team": "T07LWHRUXQB",
+        "user_profile": {
+            "avatar_hash": "ga37ff43a984",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a37ff43a9843bb50dd82e2fdbbaf346e.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+            "first_name": "202201419",
+            "real_name": "202201419",
+            "display_name": "",
+            "team": "T07LWHRUXQB",
+            "name": "202201419",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "58eiX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Also suggest uski jagah kya rakh sakte hai ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07LZ6NF14L",
+        "type": "message",
+        "ts": "1731591442.324219",
+        "client_msg_id": "dcb52a6b-2943-45f7-89eb-23d47e23c2ba",
+        "text": "Kyuki firr usme payment yeh voh sab add krna padega to get upgraded",
+        "team": "T07LWHRUXQB",
+        "user_team": "T07LWHRUXQB",
+        "source_team": "T07LWHRUXQB",
+        "user_profile": {
+            "avatar_hash": "ga37ff43a984",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a37ff43a9843bb50dd82e2fdbbaf346e.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+            "first_name": "202201419",
+            "real_name": "202201419",
+            "display_name": "",
+            "team": "T07LWHRUXQB",
+            "name": "202201419",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "l51L\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Kyuki firr usme payment yeh voh sab add krna padega to get upgraded"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07LQ3CJ6LW",
+        "type": "message",
+        "ts": "1731591489.446759",
+        "client_msg_id": "090a38f5-6fea-4095-81da-749f96ea1814",
+        "text": "I think agar hamme past ka expense dekh na hai ki between aug to sep 2023 to database se nikal ke dekh sakhte hai",
+        "team": "T07LWHRUXQB",
+        "user_team": "T07LWHRUXQB",
+        "source_team": "T07LWHRUXQB",
+        "user_profile": {
+            "avatar_hash": "ge47e1068879",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/e47e1068879d666ad1e7f1eca0e33819.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "202201440",
+            "real_name": "202201440",
+            "display_name": "Dharmil",
+            "team": "T07LWHRUXQB",
+            "name": "202201440",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Isr8n",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I think agar hamme past ka expense dekh na hai ki between aug to sep 2023 to database se nikal ke dekh sakhte hai"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07LZ6NF14L",
+        "type": "message",
+        "ts": "1731591525.104059",
+        "client_msg_id": "1be41dc2-e791-4d5b-886c-6a4798fdbed2",
+        "text": "Upgraded version me ?",
+        "team": "T07LWHRUXQB",
+        "user_team": "T07LWHRUXQB",
+        "source_team": "T07LWHRUXQB",
+        "user_profile": {
+            "avatar_hash": "ga37ff43a984",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a37ff43a9843bb50dd82e2fdbbaf346e.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+            "first_name": "202201419",
+            "real_name": "202201419",
+            "display_name": "",
+            "team": "T07LWHRUXQB",
+            "name": "202201419",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "iMrrL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Upgraded version me ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07LWM42C7L",
+        "type": "message",
+        "ts": "1731591532.610309",
+        "client_msg_id": "c9dc08fc-9cd8-437e-9367-990b310c5eb9",
+        "text": "But voh toh hum expenses ke page se bhi dekh sakte hai",
+        "team": "T07LWHRUXQB",
+        "user_team": "T07LWHRUXQB",
+        "source_team": "T07LWHRUXQB",
+        "user_profile": {
+            "avatar_hash": "ge0762b0f164",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/e0762b0f1643ea235d9873bf4eda6b56.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-72.png",
+            "first_name": "202201458",
+            "real_name": "202201458",
+            "display_name": "",
+            "team": "T07LWHRUXQB",
+            "name": "202201458",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "oNSs9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "But voh toh hum expenses ke page se bhi dekh sakte hai"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07LZ6NF14L",
+        "type": "message",
+        "ts": "1731591556.653679",
+        "client_msg_id": "50c37f8d-99bc-4777-b873-fd7a75563eb5",
+        "text": "Yess and also voh sab implement bhi krna padega",
+        "team": "T07LWHRUXQB",
+        "user_team": "T07LWHRUXQB",
+        "source_team": "T07LWHRUXQB",
+        "user_profile": {
+            "avatar_hash": "ga37ff43a984",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a37ff43a9843bb50dd82e2fdbbaf346e.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+            "first_name": "202201419",
+            "real_name": "202201419",
+            "display_name": "",
+            "team": "T07LWHRUXQB",
+            "name": "202201419",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ON4DE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Yess and also voh sab implement bhi krna padega"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07LQ3CJ6LW",
+        "type": "message",
+        "ts": "1731591614.075459",
+        "client_msg_id": "b1e431c3-f4ca-4e0c-ab78-07e2580c3a82",
+        "text": "To fir review , report error glitch jesa kuch kar sakhte hai",
+        "team": "T07LWHRUXQB",
+        "user_team": "T07LWHRUXQB",
+        "source_team": "T07LWHRUXQB",
+        "user_profile": {
+            "avatar_hash": "ge47e1068879",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/e47e1068879d666ad1e7f1eca0e33819.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "202201440",
+            "real_name": "202201440",
+            "display_name": "Dharmil",
+            "team": "T07LWHRUXQB",
+            "name": "202201440",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "K4fLa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "To fir review , report error glitch jesa kuch kar sakhte hai"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07LZ6NF14L",
+        "type": "message",
+        "ts": "1731591653.110749",
+        "client_msg_id": "6b0caead-6289-4ecf-8d3f-bbcc7d9933b3",
+        "text": "Haa yeh ek option rah sakte hai",
+        "team": "T07LWHRUXQB",
+        "user_team": "T07LWHRUXQB",
+        "source_team": "T07LWHRUXQB",
+        "user_profile": {
+            "avatar_hash": "ga37ff43a984",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a37ff43a9843bb50dd82e2fdbbaf346e.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+            "first_name": "202201419",
+            "real_name": "202201419",
+            "display_name": "",
+            "team": "T07LWHRUXQB",
+            "name": "202201419",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ipsI+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Haa yeh ek option rah sakte hai"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07LZ6NF14L",
+        "type": "message",
+        "ts": "1731591665.131989",
+        "client_msg_id": "8da4db48-a358-4538-aa11-4d927bceab0d",
+        "text": "Help and support jaisa kuch",
+        "team": "T07LWHRUXQB",
+        "user_team": "T07LWHRUXQB",
+        "source_team": "T07LWHRUXQB",
+        "user_profile": {
+            "avatar_hash": "ga37ff43a984",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a37ff43a9843bb50dd82e2fdbbaf346e.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+            "first_name": "202201419",
+            "real_name": "202201419",
+            "display_name": "",
+            "team": "T07LWHRUXQB",
+            "name": "202201419",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1gIPf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Help and support jaisa kuch"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07LZ5RJV1S",
+        "type": "message",
+        "ts": "1731592068.618099",
+        "client_msg_id": "7D790D03-E9AC-4523-B787-73C8AE612E56",
+        "text": "Ads ka bhi kuch rakhna padega na",
+        "team": "T07LWHRUXQB",
+        "user_team": "T07LWHRUXQB",
+        "source_team": "T07LWHRUXQB",
+        "user_profile": {
+            "avatar_hash": "g144a91d57d8",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/144a91d57d80809a53cee0ebf56ff301.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-72.png",
+            "first_name": "202201421",
+            "real_name": "202201421",
+            "display_name": "",
+            "team": "T07LWHRUXQB",
+            "name": "202201421",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3J2Tn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ads ka bhi kuch rakhna padega na"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

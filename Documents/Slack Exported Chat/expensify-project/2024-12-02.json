@@ -1,0 +1,126 @@
+[
+    {
+        "user": "U07N8BDND16",
+        "type": "message",
+        "ts": "1733139224.655429",
+        "client_msg_id": "baf8103a-2f46-413d-b528-5f0daf902b91",
+        "text": "Figma design aur Budget &amp; Download section ki Blackbox and acceptance testing commit kar diye hai!!!!",
+        "team": "T07LWHRUXQB",
+        "user_team": "T07LWHRUXQB",
+        "source_team": "T07LWHRUXQB",
+        "user_profile": {
+            "avatar_hash": "0f2e6ee42b12",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-09-16\/7726967770262_0f2e6ee42b123101d6d9_72.png",
+            "first_name": "2022",
+            "real_name": "2022 01449",
+            "display_name": "2022 01449",
+            "team": "T07LWHRUXQB",
+            "name": "202201449",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VFU5n",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Figma design aur Budget & Download section ki Blackbox and acceptance testing commit kar diye hai!!!!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07LQ3CJ6LW",
+        "type": "message",
+        "ts": "1733140717.602619",
+        "client_msg_id": "58bfb0c2-38a3-4ab7-931a-9e1bc5644371",
+        "text": "Ek extra I'd hai use karni ho to\n<mailto:admin@daiict.ac.in|admin@daiict.ac.in>\nPassword - Admin@1234",
+        "team": "T07LWHRUXQB",
+        "user_team": "T07LWHRUXQB",
+        "source_team": "T07LWHRUXQB",
+        "user_profile": {
+            "avatar_hash": "ge47e1068879",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/e47e1068879d666ad1e7f1eca0e33819.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "202201440",
+            "real_name": "202201440",
+            "display_name": "Dharmil",
+            "team": "T07LWHRUXQB",
+            "name": "202201440",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "UXa6x",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ek extra I'd hai use karni ho to\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:admin@daiict.ac.in",
+                                "text": "admin@daiict.ac.in",
+                                "unsafe": true
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nPassword - Admin@1234"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07LZ5RJV1S",
+        "type": "message",
+        "ts": "1733152409.188559",
+        "client_msg_id": "893c9f01-6076-4562-826c-0e7e06ad959d",
+        "text": "All files uploaded on github",
+        "team": "T07LWHRUXQB",
+        "user_team": "T07LWHRUXQB",
+        "source_team": "T07LWHRUXQB",
+        "user_profile": {
+            "avatar_hash": "g144a91d57d8",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/144a91d57d80809a53cee0ebf56ff301.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-72.png",
+            "first_name": "202201421",
+            "real_name": "202201421",
+            "display_name": "",
+            "team": "T07LWHRUXQB",
+            "name": "202201421",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DM5Ez",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "All files uploaded on github"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
