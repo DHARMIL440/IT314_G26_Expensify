@@ -1,0 +1,98 @@
+[
+{
+    "id": "C07LWHS0P7V",
+    "name": "general",
+    "created": 1726038567,
+    "creator": "U07LZ5RJV1S",
+    "is_archived": false,
+    "is_general": true,
+    "members": [
+        "U07LQ3CJ6LW",
+        "U07LTSP57ML",
+        "U07LWM42C7L",
+        "U07LX8ACF5Y",
+        "U07LZ5RJV1S",
+        "U07LZ6NF14L",
+        "U07MAH4J3AP",
+        "U07MP9RMV5F",
+        "U07N8BDND16"
+    ],
+    "topic": {
+        "value": "",
+        "creator": "",
+        "last_set": 0
+    },
+    "purpose": {
+        "value": "This is the one channel that will always include everyone. It’s a great spot for announcements and team-wide conversations.",
+        "creator": "U07LZ5RJV1S",
+        "last_set": 1726038567
+    }
+},
+{
+    "id": "C07LWLZ13QA",
+    "name": "expensify-project",
+    "created": 1726038640,
+    "creator": "U07LZ5RJV1S",
+    "is_archived": false,
+    "is_general": false,
+    "members": [
+        "U07LQ3CJ6LW",
+        "U07LTSP57ML",
+        "U07LWM42C7L",
+        "U07LX8ACF5Y",
+        "U07LZ5RJV1S",
+        "U07LZ6NF14L",
+        "U07MAH4J3AP",
+        "U07MP9RMV5F",
+        "U07N8BDND16"
+    ],
+    "pins": [
+        {
+            "id": "1733007425.867939",
+            "type": "C",
+            "created": 1733007491,
+            "user": "U07LZ5RJV1S",
+            "owner": "U07LZ5RJV1S"
+        }
+    ],
+    "topic": {
+        "value": "",
+        "creator": "",
+        "last_set": 0
+    },
+    "purpose": {
+        "value": "This channel is for everything #expensify-project. Hold meetings, share docs, and make decisions together with your team.",
+        "creator": "U07LZ5RJV1S",
+        "last_set": 1726038640
+    }
+},
+{
+    "id": "C07M9B5HD8R",
+    "name": "random",
+    "created": 1726038567,
+    "creator": "U07LZ5RJV1S",
+    "is_archived": false,
+    "is_general": false,
+    "members": [
+        "U07LQ3CJ6LW",
+        "U07LTSP57ML",
+        "U07LWM42C7L",
+        "U07LX8ACF5Y",
+        "U07LZ5RJV1S",
+        "U07LZ6NF14L",
+        "U07MAH4J3AP",
+        "U07MP9RMV5F",
+        "U07N8BDND16"
+    ],
+    "topic": {
+        "value": "",
+        "creator": "",
+        "last_set": 0
+    },
+    "purpose": {
+        "value": "This channel is for... well, everything else. It’s a place for team jokes, spur-of-the-moment ideas, and funny GIFs.",
+        "creator": "U07LZ5RJV1S",
+        "last_set": 1726038567
+    }
+}
+]
