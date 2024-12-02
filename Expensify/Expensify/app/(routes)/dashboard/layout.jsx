@@ -1,9 +1,9 @@
 "use client";
 import React, { useEffect, useState } from 'react';
-import SideNav from "@/app/(routes)/dashboard/_components/SideNav"; // Updated path with @ alias
-import DashboardHeader from "@/app/(routes)/dashboard/_components/DashboardHeader"; // Updated path with @ alias
-import { db } from "@/utils/dbConfig"; // Updated path with @ alias
-import { Budgets, Expenses } from "@/utils/schema"; // Updated path with @ alias
+import SideNav from "@/app/(routes)/dashboard/_components/SideNav";
+import DashboardHeader from "@/app/(routes)/dashboard/_components/DashboardHeader";
+import { db } from "@/utils/dbConfig";
+import { Budgets, Expenses } from "@/utils/schema";
 import { useUser } from "@clerk/nextjs";
 import { eq, sql } from "drizzle-orm";
 
@@ -14,18 +14,16 @@ export default function DashboardLayout({ children }) {
 
   useEffect(() => {
     if (user) {
-      fetchUserBudgetData();  // Initial fetch when the component mounts
+      fetchUserBudgetData();  
       const intervalId = setInterval(() => {
-        fetchUserBudgetData();  // Fetch data every 5 seconds
+        fetchUserBudgetData();  
       }, 5000);
 
-      // Cleanup the interval when the component unmounts or when user changes
       return () => clearInterval(intervalId);
     }
   }, [user]);
 
   const fetchUserBudgetData = async () => {
-    // Query to calculate total budget (sum of amounts from Budgets table)
     const budgetResult = await db
       .select({
         totalBudget: sql`SUM(${Budgets.amount})`.mapWith(Number),
@@ -33,7 +31,6 @@ export default function DashboardLayout({ children }) {
       .from(Budgets)
       .where(eq(Budgets.createdBy, user?.primaryEmailAddress?.emailAddress));
 
-    // Query to calculate total expenses (sum of amounts from Expenses table)
     const expenseResult = await db
       .select({
         totalSpend: sql`SUM(${Expenses.amount})`.mapWith(Number),
