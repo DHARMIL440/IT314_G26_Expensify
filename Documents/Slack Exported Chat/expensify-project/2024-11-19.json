@@ -1,0 +1,65 @@
+[
+    {
+        "user": "U07LZ5RJV1S",
+        "type": "message",
+        "ts": "1732004792.232659",
+        "client_msg_id": "c9cd5d79-d7a3-4c61-b42b-8def0244ccca",
+        "text": "Testing related video <https:\/\/www.youtube.com\/watch?v=Zlzhe-7Ftxc>",
+        "team": "T07LWHRUXQB",
+        "user_team": "T07LWHRUXQB",
+        "source_team": "T07LWHRUXQB",
+        "user_profile": {
+            "avatar_hash": "g144a91d57d8",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/144a91d57d80809a53cee0ebf56ff301.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-72.png",
+            "first_name": "202201421",
+            "real_name": "202201421",
+            "display_name": "",
+            "team": "T07LWHRUXQB",
+            "name": "202201421",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/www.youtube.com\/watch?v=Zlzhe-7Ftxc",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/Zlzhe-7Ftxc\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "video_html": "<iframe width=\"400\" height=\"225\" src=\"https:\/\/www.youtube.com\/embed\/Zlzhe-7Ftxc?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"How To Write TEST CASES In Manual Testing\"><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 225,
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/youtube.png",
+                "id": 1,
+                "original_url": "https:\/\/www.youtube.com\/watch?v=Zlzhe-7Ftxc",
+                "fallback": "YouTube Video: How To Write TEST CASES In Manual Testing",
+                "title": "How To Write TEST CASES In Manual Testing",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=Zlzhe-7Ftxc",
+                "author_name": "TheTestingAcademy Hindi",
+                "author_link": "https:\/\/www.youtube.com\/@TheTestingAcademyHindi",
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "93zMy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Testing related video "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.youtube.com\/watch?v=Zlzhe-7Ftxc"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

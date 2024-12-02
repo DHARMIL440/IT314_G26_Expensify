@@ -1,0 +1,378 @@
+[
+    {
+        "user": "U07LZ5RJV1S",
+        "type": "message",
+        "ts": "1731658087.414769",
+        "client_msg_id": "6cf7ceb0-61fa-4c34-962e-7dee2ac94ec5",
+        "text": "Guys mereko ye kuch mila h dekh lo if its going to be helpful for us or not",
+        "team": "T07LWHRUXQB",
+        "user_team": "T07LWHRUXQB",
+        "source_team": "T07LWHRUXQB",
+        "user_profile": {
+            "avatar_hash": "g144a91d57d8",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/144a91d57d80809a53cee0ebf56ff301.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-72.png",
+            "first_name": "202201421",
+            "real_name": "202201421",
+            "display_name": "",
+            "team": "T07LWHRUXQB",
+            "name": "202201421",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "x9sED",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Guys mereko ye kuch mila h dekh lo if its going to be helpful for us or not"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07LZ5RJV1S",
+        "type": "message",
+        "ts": "1731658090.784639",
+        "client_msg_id": "77ad528b-682a-4323-b708-f45d4cf7c97d",
+        "text": "<https:\/\/www.youtube.com\/watch?v=nANLXwxZxks&amp;t=588s>",
+        "team": "T07LWHRUXQB",
+        "user_team": "T07LWHRUXQB",
+        "source_team": "T07LWHRUXQB",
+        "user_profile": {
+            "avatar_hash": "g144a91d57d8",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/144a91d57d80809a53cee0ebf56ff301.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-72.png",
+            "first_name": "202201421",
+            "real_name": "202201421",
+            "display_name": "",
+            "team": "T07LWHRUXQB",
+            "name": "202201421",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/www.youtube.com\/watch?v=nANLXwxZxks&amp;t=588s",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/nANLXwxZxks\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "video_html": "<iframe width=\"400\" height=\"225\" src=\"https:\/\/www.youtube.com\/embed\/nANLXwxZxks?feature=oembed&start=588&autoplay=1&iv_load_policy=3\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Build a Full Stack Budget Tracker with Next.js, TypeScript, Prisma, and Tailwind CSS\"><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 225,
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/youtube.png",
+                "id": 1,
+                "original_url": "https:\/\/www.youtube.com\/watch?v=nANLXwxZxks&amp;t=588s",
+                "fallback": "YouTube Video: Build a Full Stack Budget Tracker with Next.js, TypeScript, Prisma, and Tailwind CSS",
+                "title": "Build a Full Stack Budget Tracker with Next.js, TypeScript, Prisma, and Tailwind CSS",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=nANLXwxZxks&amp;t=588s",
+                "author_name": "Kliton Bare",
+                "author_link": "https:\/\/www.youtube.com\/@klitonbare",
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8Uczr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.youtube.com\/watch?v=nANLXwxZxks&t=588s"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U07LZ6NF14L"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U07LZ5RJV1S",
+        "type": "message",
+        "ts": "1731658111.434829",
+        "client_msg_id": "2b1df41d-25ba-4ebe-8bf4-35dfca963e41",
+        "text": "3:49:14 Manage page h, jidhar woh currency set kar raha h",
+        "team": "T07LWHRUXQB",
+        "user_team": "T07LWHRUXQB",
+        "source_team": "T07LWHRUXQB",
+        "user_profile": {
+            "avatar_hash": "g144a91d57d8",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/144a91d57d80809a53cee0ebf56ff301.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-72.png",
+            "first_name": "202201421",
+            "real_name": "202201421",
+            "display_name": "",
+            "team": "T07LWHRUXQB",
+            "name": "202201421",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pqb7a",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "3:49:14 Manage page h, jidhar woh currency set kar raha h"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07LZ5RJV1S",
+        "type": "message",
+        "ts": "1731658125.766619",
+        "client_msg_id": "4652ed69-f433-400b-a39a-98222afba466",
+        "text": "and uske baad kuch transactions page h, if it could help us with anything",
+        "team": "T07LWHRUXQB",
+        "user_team": "T07LWHRUXQB",
+        "source_team": "T07LWHRUXQB",
+        "user_profile": {
+            "avatar_hash": "g144a91d57d8",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/144a91d57d80809a53cee0ebf56ff301.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-72.png",
+            "first_name": "202201421",
+            "real_name": "202201421",
+            "display_name": "",
+            "team": "T07LWHRUXQB",
+            "name": "202201421",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gZ+9f",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "and uske baad kuch transactions page h, if it could help us with anything"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07LZ5RJV1S",
+        "type": "message",
+        "ts": "1731658135.119649",
+        "client_msg_id": "9e30308b-0bda-4864-b294-9a8f6d058715",
+        "text": "Also kuch update h kab tak we ll do the deployment?",
+        "team": "T07LWHRUXQB",
+        "user_team": "T07LWHRUXQB",
+        "source_team": "T07LWHRUXQB",
+        "user_profile": {
+            "avatar_hash": "g144a91d57d8",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/144a91d57d80809a53cee0ebf56ff301.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-72.png",
+            "first_name": "202201421",
+            "real_name": "202201421",
+            "display_name": "",
+            "team": "T07LWHRUXQB",
+            "name": "202201421",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wH2Id",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Also kuch update h kab tak we ll do the deployment?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07LZ6NF14L",
+        "type": "message",
+        "ts": "1731665181.212469",
+        "client_msg_id": "6109d944-c021-44b2-aa22-beb3ab4421c1",
+        "text": "Deployment mostly 1-2 days me will do",
+        "team": "T07LWHRUXQB",
+        "user_team": "T07LWHRUXQB",
+        "source_team": "T07LWHRUXQB",
+        "user_profile": {
+            "avatar_hash": "ga37ff43a984",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a37ff43a9843bb50dd82e2fdbbaf346e.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+            "first_name": "202201419",
+            "real_name": "202201419",
+            "display_name": "",
+            "team": "T07LWHRUXQB",
+            "name": "202201419",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "opb3P",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Deployment mostly 1-2 days me will do"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07LZ6NF14L",
+        "type": "message",
+        "ts": "1731666657.813809",
+        "edited": {
+            "user": "U07LZ6NF14L",
+            "ts": "1731666672.000000"
+        },
+        "client_msg_id": "e62c63d3-f803-409e-9851-8cdf06ea0b2b",
+        "text": "Dharmil ya srushti tum dono me se koi settings wala page bana sakta hai upgrade ki jagah ?",
+        "team": "T07LWHRUXQB",
+        "user_team": "T07LWHRUXQB",
+        "source_team": "T07LWHRUXQB",
+        "user_profile": {
+            "avatar_hash": "ga37ff43a984",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a37ff43a9843bb50dd82e2fdbbaf346e.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+            "first_name": "202201419",
+            "real_name": "202201419",
+            "display_name": "",
+            "team": "T07LWHRUXQB",
+            "name": "202201419",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pgY7G",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Dharmil ya srushti tum dono me se koi settings wala page bana sakta hai upgrade ki jagah ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07LQ3CJ6LW",
+        "type": "message",
+        "ts": "1731667448.504999",
+        "client_msg_id": "36b25ff8-77d9-4be5-8e5a-c27c7529e159",
+        "text": "Settings ma kya rakhna hai ?",
+        "team": "T07LWHRUXQB",
+        "user_team": "T07LWHRUXQB",
+        "source_team": "T07LWHRUXQB",
+        "user_profile": {
+            "avatar_hash": "ge47e1068879",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/e47e1068879d666ad1e7f1eca0e33819.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "202201440",
+            "real_name": "202201440",
+            "display_name": "Dharmil",
+            "team": "T07LWHRUXQB",
+            "name": "202201440",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "p3lod",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Settings ma kya rakhna hai ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07LZ6NF14L",
+        "type": "message",
+        "ts": "1731668692.160699",
+        "client_msg_id": "2a7abca6-fa67-46e4-95c5-91519efd3893",
+        "text": "Currency language preferences aur chamge password ya esa kuch rakhna ho toh",
+        "team": "T07LWHRUXQB",
+        "user_team": "T07LWHRUXQB",
+        "source_team": "T07LWHRUXQB",
+        "user_profile": {
+            "avatar_hash": "ga37ff43a984",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a37ff43a9843bb50dd82e2fdbbaf346e.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+            "first_name": "202201419",
+            "real_name": "202201419",
+            "display_name": "",
+            "team": "T07LWHRUXQB",
+            "name": "202201419",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DqcpJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Currency language preferences aur chamge password ya esa kuch rakhna ho toh"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

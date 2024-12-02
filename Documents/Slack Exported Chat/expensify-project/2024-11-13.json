@@ -1,0 +1,78 @@
+[
+    {
+        "user": "U07LZ6NF14L",
+        "type": "message",
+        "ts": "1731490943.943899",
+        "client_msg_id": "81d104d0-a0ff-431c-bccd-762fcefcce3b",
+        "text": "Priyansh, avi - ui\/ux, seq,class diagram\n\nSrushti, maahi, dharmil - coding\n\nKkavy, siddhant - testing\n\nManav, devarsh - system, object design",
+        "team": "T07LWHRUXQB",
+        "user_team": "T07LWHRUXQB",
+        "source_team": "T07LWHRUXQB",
+        "user_profile": {
+            "avatar_hash": "ga37ff43a984",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a37ff43a9843bb50dd82e2fdbbaf346e.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+            "first_name": "202201419",
+            "real_name": "202201419",
+            "display_name": "",
+            "team": "T07LWHRUXQB",
+            "name": "202201419",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VOpz5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Priyansh, avi - ui\/ux, seq,class diagram\n\nSrushti, maahi, dharmil - coding\n\nKkavy, siddhant - testing\n\nManav, devarsh - system, object design"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07LZ5RJV1S",
+        "type": "message",
+        "ts": "1731505811.895049",
+        "client_msg_id": "3A2922FD-0101-45DB-B4AA-CDF60C68DD0E",
+        "text": "Selenium ide gui testing only in chrome\nCreate a new project\nRecords all the gui tests and clicks \nCreate test cases record them and playback them \nUse touchpad or else it gives mouse over error for external mouse \n\nGithub copilot extension on vscode too\n\nApache jmeter testing (download jdk from oracle) \n\nOpen bin files \nopen terminal in bin\nPaste .\/jmeter.bat\n\nUsed for load balancing \n\nTo check how many users can be there at a time \n\nTest plan &gt; add &gt; thread group &gt; create no of users required &gt; add &gt; sampler &gt; http request \nTest get command and add \/ in path , then add a litsener &gt; add &gt; litsener ( view result tree , view result in table , summary reporr ) \n\nAnalyse the error in result tree and summary report and result in table \n\nPentest tools for security or network tools \n\nTestcraft ai tool for chrome to test snd generate ",
+        "team": "T07LWHRUXQB",
+        "user_team": "T07LWHRUXQB",
+        "source_team": "T07LWHRUXQB",
+        "user_profile": {
+            "avatar_hash": "g144a91d57d8",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/144a91d57d80809a53cee0ebf56ff301.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-72.png",
+            "first_name": "202201421",
+            "real_name": "202201421",
+            "display_name": "",
+            "team": "T07LWHRUXQB",
+            "name": "202201421",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "FRB5O",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Selenium ide gui testing only in chrome\nCreate a new project\nRecords all the gui tests and clicks \nCreate test cases record them and playback them \nUse touchpad or else it gives mouse over error for external mouse \n\nGithub copilot extension on vscode too\n\nApache jmeter testing (download jdk from oracle) \n\nOpen bin files \nopen terminal in bin\nPaste .\/jmeter.bat\n\nUsed for load balancing \n\nTo check how many users can be there at a time \n\nTest plan > add > thread group > create no of users required > add > sampler > http request \nTest get command and add \/ in path , then add a litsener > add > litsener ( view result tree , view result in table , summary reporr ) \n\nAnalyse the error in result tree and summary report and result in table \n\nPentest tools for security or network tools \n\nTestcraft ai tool for chrome to test snd generate "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
