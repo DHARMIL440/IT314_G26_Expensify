@@ -10,18 +10,28 @@ import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
+const CURRENCY_CONVERSIONS = {
+  USD: 1,       // Base currency
+  EUR: 0.92,    // 1 USD = 0.92 EUR
+  GBP: 0.81,    // 1 USD = 0.81 GBP
+  INR: 82.5,    // 1 USD = 82.5 INR
+  JPY: 150.0,   // 1 USD = 150 JPY
+};
+
+
 function ReportsPage() {
   const { user } = useUser();
   const [budgetList, setBudgetList] = useState([]);
   const [expensesList, setExpensesList] = useState([]);
   const [pieChartData, setPieChartData] = useState(null);
-  const [analysisReport, setAnalysisReport] = useState(null); // Analysis report data
+  const [analysisReport, setAnalysisReport] = useState(null);
+  const [selectedCurrency, setSelectedCurrency] = useState("USD"); // Default currency
 
   useEffect(() => {
     if (expensesList.length > 0) {
       generatePieChart(expensesList);
     }
-  }, [expensesList]);
+  }, [expensesList, selectedCurrency]); // Recalculate when currency changes
 
   useEffect(() => {
     if (user) {
@@ -67,7 +77,7 @@ function ReportsPage() {
       if (!nameSpend[name]) {
         nameSpend[name] = 0;
       }
-      nameSpend[name] += expense.amount;
+      nameSpend[name] += expense.amount * CURRENCY_CONVERSIONS[selectedCurrency]; // Apply conversion
     });
 
     const data = {
@@ -106,16 +116,16 @@ function ReportsPage() {
       (sum, value) => sum + (Number(value) || 0),
       0
     );
-  
+
     const sortedCategories = Object.entries(nameSpend).sort(
       ([, a], [, b]) => Number(b) - Number(a)
     );
-  
+
     const reportData = {
       totalSpend: totalSpend.toFixed(2),
       categories: sortedCategories.map(([name, amount]) => ({
         name,
-        amount: Number(amount).toFixed(2), // Ensure `amount` is a number
+        amount: Number(amount).toFixed(2),
         percentage: ((Number(amount) / totalSpend) * 100).toFixed(2),
       })),
       topCategory:
@@ -130,10 +140,9 @@ function ReportsPage() {
             }
           : null,
     };
-  
+
     setAnalysisReport(reportData);
   };
-  
 
   return (
     <div className="p-10 bg-gradient-to-b from-black via-gray-900 to-gray-950 min-h-screen">
@@ -142,7 +151,21 @@ function ReportsPage() {
         Gain insights into your spending and make informed financial decisions.
       </p>
 
-      {/* Remove CardInfo here */}
+      {/* Currency Selector */}
+      <div className="mb-6">
+        <label className="text-gray-300 mr-4">Select Currency:</label>
+        <select
+          value={selectedCurrency}
+          onChange={(e) => setSelectedCurrency(e.target.value)}
+          className="px-4 py-2 border rounded-lg bg-white text-black shadow-md focus:outline-none"
+        >
+          {Object.keys(CURRENCY_CONVERSIONS).map((currency) => (
+            <option key={currency} value={currency}>
+              {currency}
+            </option>
+          ))}
+        </select>
+      </div>
 
       {/* Charts Section */}
       <div className="grid grid-cols-1 md:grid-cols-2 mt-10 gap-8">
@@ -164,25 +187,29 @@ function ReportsPage() {
               {/* Total Spending */}
               <div className="mb-4">
                 <span className="font-bold text-lg text-white">Total Spending: </span>
-                <span className="text-yellow-400">₹{analysisReport.totalSpend}</span>
+                <span className="text-yellow-400">
+                  {selectedCurrency} {analysisReport.totalSpend}
+                </span>
               </div>
 
               {/* Categories Table */}
               <table className="table-auto w-full text-gray-400 mb-6">
-              <thead>
-                    <tr className="border-b border-gray-700">
+                <thead>
+                  <tr className="border-b border-gray-700">
                     <th className="py-3 px-4 w-1/12 text-center">#</th>
                     <th className="py-3 px-4 w-5/12 text-left">Category</th>
                     <th className="py-3 px-4 w-3/12 text-right">Amount</th>
                     <th className="py-3 px-4 w-3/12 text-right">% of Total</th>
-                    </tr>
+                  </tr>
                 </thead>
                 <tbody>
                   {analysisReport.categories.map((category, index) => (
                     <tr key={category.name} className="border-b border-gray-700">
                       <td className="py-2 px-4 text-center">{index + 1}</td>
                       <td className="py-2 px-4 text-left">{category.name}</td>
-                      <td className="py-2 px-4 text-right">₹{category.amount}</td>
+                      <td className="py-2 px-4 text-right">
+                        {selectedCurrency} {category.amount}
+                      </td>
                       <td className="py-2 px-4 text-right">{category.percentage}%</td>
                     </tr>
                   ))}
@@ -197,7 +224,7 @@ function ReportsPage() {
                     <span className="text-yellow-400">
                       {analysisReport.topCategory.name}
                     </span>{" "}
-                    (₹{analysisReport.topCategory.amount},{" "}
+                    ({selectedCurrency} {analysisReport.topCategory.amount},{" "}
                     {analysisReport.topCategory.percentage}%)
                   </div>
                   <p className="mt-2 text-sm text-gray-400">
