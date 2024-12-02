@@ -3,7 +3,11 @@
 Expensify is a user-friendly and efficient web application designed to help individuals manage their expenses and budgets effectively. It allows users to track their daily expenditures, categorize expenses, set budgets, and visualize spending patterns.  
 
 Figma Link for UI/UX : https://www.figma.com/design/IUMbkycWw5M30T1Hc0Zbtp/EXP_TRACKER  <br/>
-Youtube Link for Demo : https://youtu.be/Ysdqilnbqf4 
+Youtube Link for Demo : https://youtu.be/Ysdqilnbqf4 </br> 
+
+Ppt link :</br>
+https://www.canva.com/design/DAGYKJLztcU/1FwpB9iBdmOEDKCQveAhlA/edit?utm_content=DAGYKJLztcU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton </br>
+
 
 ## Features  
 - **Expense Tracking**: Add, edit, and delete expenses with detailed descriptions and categories.  
