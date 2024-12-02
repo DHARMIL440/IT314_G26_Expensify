@@ -22,7 +22,6 @@ export default function SideNav() {
     console.log(path);
   }, [path]);
 
-
   return (
     <div className="h-screen bg-gradient-to-b from-black via-gray-900 to-gray-950 flex flex-col justify-between p-5">
       {/* Logo */}
