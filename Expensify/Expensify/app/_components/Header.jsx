@@ -1,13 +1,12 @@
 "use client";
 
 import React from "react";
-import { Button } from "@/components/ui/button"; // Updated import path based on alias
+import { Button } from "@/components/ui/button";
 import { UserButton, useUser } from "@clerk/nextjs";
-import { useRouter } from "next/navigation"; // Import useRouter for programmatic navigation
-import Link from "next/link"; // Import Link for navigation
-import Image from "next/image"; // Import Image component
+import { useRouter } from "next/navigation";
+import Link from "next/link";
+import Image from "next/image";
 import { toast } from "sonner";
-
 
 function Header() {
   const { isSignedIn } = useUser();
@@ -15,26 +14,23 @@ function Header() {
 
   const handleDashboardClick = () => {
     if (isSignedIn) {
-      router.push("/dashboard"); 
+      router.push("/dashboard");
     } else {
-      toast.warning("Please sign in first to access the dashboard!", {
-      });
+      toast.warning("Please sign in first to access the dashboard!");
     }
   };
-  // added func
+
   return (
     <header className="p-4 flex justify-between items-center bg-gradient-to-r from-blue-800 via-gray-800 to-black shadow-md">
-      {/* Logo image with link to home */}
       <Link href="/">
         <Image
-          src="/logo.png" // Ensure logo.png is in the 'public' folder
+          src="/logo.png"
           alt="Expensify Logo"
           width={80}
           height={40}
           className="object-contain cursor-pointer"
         />
       </Link>
-
       <div className="flex gap-4">
         {isSignedIn ? (
           <UserButton />

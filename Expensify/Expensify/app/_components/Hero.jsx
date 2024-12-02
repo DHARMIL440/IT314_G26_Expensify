@@ -10,17 +10,12 @@ export default function Hero() {
   const router = useRouter();
 
   useEffect(() => {
-    // Reset visibility on page load or refresh
     setIsVisible(false);
-    
-    // Trigger animation after a short delay
     const timer = setTimeout(() => {
       setIsVisible(true);
-    }, 100); // Delay for triggering animation
-
-    // Cleanup the timeout if the component is unmounted
+    }, 100);
     return () => clearTimeout(timer);
-  }, []); // Empty dependency array ensures this runs only on mount (page refresh)
+  }, []);
 
   const animatedStyle = {
     opacity: isVisible ? 1 : 0,
@@ -58,8 +53,6 @@ export default function Hero() {
               Track Your Expenses Easily
             </h1>
           </div>
-
-          {/* Second Line */}
           <div className="w-full text-left mb-4">
             <strong
               className="block text-5xl font-bold bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent sm:text-6xl md:text-7xl lg:leading-tight"
@@ -68,8 +61,6 @@ export default function Hero() {
               Gain Control of Your Finances
             </strong>
           </div>
-
-          {/* Website Description */}
           <div className="mt-200">
             <p
               className="text-lg text-gray-400 mt-4 leading-relaxed"
@@ -81,8 +72,6 @@ export default function Hero() {
             </p>
           </div>
         </div>
-
-        {/* Piggy Bank Animation */}
         <div className="w-80 h-80 flex justify-center ml-12">
           <img
             src="piggy.png"
@@ -92,7 +81,6 @@ export default function Hero() {
         </div>
       </section>
 
-      {/* Footer Section */}
       <footer className="bg-gradient-to-l from-blue-900 via-gray-900 to-black text-gray-400 py-6">
         <div className="max-w-screen-lg mx-auto px-6 flex flex-col lg:flex-row items-center lg:justify-between text-center lg:text-left gap-4">
           <p className="text-xl font-semibold flex items-center justify-center lg:justify-start">
