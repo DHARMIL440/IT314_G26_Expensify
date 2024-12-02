@@ -9,7 +9,6 @@ function ExpenseListTable({ expensesList = [], refreshData }) {
   const [currency, setCurrency] = useState('USD');
   const [sortBy, setSortBy] = useState('date');
 
-  // Shared conversion rates between components
   const conversionRates = {
     USD: 1,
     EUR: 0.92,  // 1 USD = 0.92 EUR
@@ -44,8 +43,7 @@ function ExpenseListTable({ expensesList = [], refreshData }) {
   };
 
   const formatAmount = (amount) => {
-    // Convert from base unit (no need to divide by 100)
-    const convertedAmount = amount * conversionRates[currency]; // Convert the amount to selected currency
+    const convertedAmount = amount * conversionRates[currency]; 
     
     return new Intl.NumberFormat('en-US', {
       style: 'currency',
@@ -63,7 +61,6 @@ function ExpenseListTable({ expensesList = [], refreshData }) {
     setSortBy(event.target.value);
   };
 
-  // Sorting logic
   const sortedExpenses = [...expensesList].sort((a, b) => {
     if (sortBy === 'date') {
       return new Date(b.createdAt) - new Date(a.createdAt);

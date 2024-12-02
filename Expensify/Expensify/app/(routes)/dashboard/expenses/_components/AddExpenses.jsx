@@ -23,13 +23,11 @@ function AddExpenses({ budgetId, user, refreshData }) {
   const PAYMENT_METHODS = ['Cash', 'Credit', 'Debit', 'UPI', 'Cheque'];
 
   const addNewExpense = async () => {
-    // Validate name and amount
     if (!name || name.trim() === "") {
       toast.error("Please enter a valid expense name.");
       return;
     }
 
-    // Validate amount (positive integer and no decimals)
     const parsedAmount = parseFloat(amount);
     if (!amount || isNaN(parsedAmount) || parsedAmount <= 0 || parsedAmount % 1 !== 0) {
       toast.error("Please enter a valid expense amount (positive integer, no decimals).");
@@ -42,21 +40,17 @@ function AddExpenses({ budgetId, user, refreshData }) {
     }
 
     try {
-      // Log the input amount and currency for debugging
       console.log("Adding expense: ", { name, amount, currency });
 
-      // Convert the entered amount to USD based on the selected currency
       const amountInUSD = Number(amount) * CURRENCY_CONVERSIONS[currency];
       
-      // Use the amount in USD directly as an integer
       const amountInInteger = Math.round(amountInUSD);
 
       console.log(`Amount in USD: ${amountInUSD}, Amount as Integer: ${amountInInteger}`);
 
-      // Insert into the database
       const result = await db.insert(Expenses).values({
         name: name,
-        amount: amountInInteger,  // Store as integer (USD)
+        amount: amountInInteger,  
         budgetId: Number(budgetId),
         createdBy: user?.primaryEmailAddress?.emailAddress,
         createdAt: moment().toDate(),

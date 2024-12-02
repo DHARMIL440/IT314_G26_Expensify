@@ -1,15 +1,15 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { db } from "@/utils/dbConfig"; // Updated import path
-import { Budgets, Expenses } from "@/utils/schema"; // Updated import path
-import ExpenseListTable from "@/app/(routes)/dashboard/expenses/_components/ExpenseListTable"; // Updated import path
+import { db } from "@/utils/dbConfig";
+import { Budgets, Expenses } from "@/utils/schema";
+import ExpenseListTable from "@/app/(routes)/dashboard/expenses/_components/ExpenseListTable";
 import { useUser } from "@clerk/nextjs";
 import { desc, eq, getTableColumns, sql } from "drizzle-orm";
-import BudgetItem from "@/app/(routes)/dashboard/budgets/_components/BudgetItem"; // Updated import path
-import AddExpenses from "@/app/(routes)/dashboard/expenses/_components/AddExpenses"; // Updated import path
-import { Button } from "@/components/ui/button"; // Updated import path
+import BudgetItem from "@/app/(routes)/dashboard/budgets/_components/BudgetItem"; 
+import AddExpenses from "@/app/(routes)/dashboard/expenses/_components/AddExpenses"; 
+import { Button } from "@/components/ui/button";
 import { Trash, ArrowLeft } from "lucide-react";
-import EditBudget from "@/app/(routes)/dashboard/expenses/_components/EditBudget"; // Updated import path
+import EditBudget from "@/app/(routes)/dashboard/expenses/_components/EditBudget";
 import {
   AlertDialog,
   AlertDialogAction,
@@ -19,7 +19,7 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from "@/components/ui/alert-dialog"; // Updated import path
+} from "@/components/ui/alert-dialog";
 import { toast } from "sonner";
 import { useRouter } from "next/navigation";
 
@@ -28,7 +28,7 @@ function ExpensesScreen({ params }) {
   const { user } = useUser();
   const [budgetInfo, setBudgetInfo] = useState();
   const [expensesList, setExpensesList] = useState();
-  const [openDialog, setOpenDialog] = useState(false); // Add state for dialog visibility
+  const [openDialog, setOpenDialog] = useState(false); 
   const route = useRouter();
 
   const budgetId = React.use(params).id;
@@ -65,7 +65,7 @@ function ExpensesScreen({ params }) {
         console.log(result);
         toast("Budget Deleted !");
         route.replace('/dashboard/budgets');
-        setOpenDialog(false); // Close the dialog after successful deletion
+        setOpenDialog(false);
       }
     } catch (error) {
       console.error('Error deleting budget:', error);
@@ -135,9 +135,9 @@ function ExpensesScreen({ params }) {
               <AlertDialogFooter className="flex justify-between items-center gap-4 w-full">
                 <button
                   className="text-white text-xl cursor-pointer"
-                  onClick={() => setOpenDialog(false)}  // Close the dialog when clicked
+                  onClick={() => setOpenDialog(false)} 
                 >
-                  &times; {/* Close icon */}
+                  &times; 
                 </button>
                 <AlertDialogAction 
                   className="bg-red-600 hover:bg-red-700 px-6 py-2 rounded"

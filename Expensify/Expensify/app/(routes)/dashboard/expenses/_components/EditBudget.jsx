@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { Button } from "@/components/ui/button"; // Updated import path
+import { Button } from "@/components/ui/button"; 
 import { PenBox } from "lucide-react";
 import {
   Dialog,
@@ -9,21 +9,21 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/components/ui/dialog"; // Updated import path
+} from "@/components/ui/dialog"; 
 import EmojiPicker from "emoji-picker-react";
 import { useUser } from "@clerk/nextjs";
-import { Input } from "@/components/ui/input"; // Updated import path
-import { db } from "@/utils/dbConfig"; // Updated import path
-import { Budgets } from "@/utils/schema"; // Updated import path
+import { Input } from "@/components/ui/input"; 
+import { db } from "@/utils/dbConfig"; 
+import { Budgets } from "@/utils/schema";
 import { eq } from "drizzle-orm";
 import { toast } from "sonner";
 
 function EditBudget({ budgetInfo, refreshData }) {
-  const [emojiIcon, setEmojiIcon] = useState(budgetInfo?.icon || '🎯');  // Default to a target emoji
+  const [emojiIcon, setEmojiIcon] = useState(budgetInfo?.icon || '🎯');  
   const [openEmojiPicker, setEmojiPicker] = useState(false);
-  const [name, setName] = useState(budgetInfo?.name || ''); // Default to empty if no name exists
-  const [amount, setAmount] = useState(budgetInfo?.amount || ''); // Default to empty or previous amount
-  const [openDialog, setOpenDialog] = useState(false); // State to control dialog open/close
+  const [name, setName] = useState(budgetInfo?.name || ''); 
+  const [amount, setAmount] = useState(budgetInfo?.amount || ''); 
+  const [openDialog, setOpenDialog] = useState(false); 
   const { user } = useUser();
 
   useEffect(() => {
@@ -35,7 +35,6 @@ function EditBudget({ budgetInfo, refreshData }) {
   }, [budgetInfo]);
 
   const onUpdateBudget = async () => {
-    // Validation: Check if name is empty or amount is invalid
     if (!name.trim()) {
       toast.error("Budget name cannot be empty!");
       return;
@@ -48,7 +47,6 @@ function EditBudget({ budgetInfo, refreshData }) {
     }
   
     try {
-      // Update the budget
       const result = await db
         .update(Budgets)
         .set({
@@ -62,7 +60,7 @@ function EditBudget({ budgetInfo, refreshData }) {
       if (result) {
         refreshData();
         toast.success("Budget Updated!");
-        setOpenDialog(false); // Close the dialog after updating the budget
+        setOpenDialog(false); 
       }
     } catch (error) {
       toast.error("Failed to update budget. Please try again.");
@@ -96,7 +94,7 @@ function EditBudget({ budgetInfo, refreshData }) {
                         setEmojiIcon(e.emoji);
                         setEmojiPicker(false);
                       }}
-                      theme="dark" // Setting dark theme for the emoji picker
+                      theme="dark"
                     />
                   </div>
                 )}
