@@ -22,10 +22,6 @@ export default function SideNav() {
     console.log(path);
   }, [path]);
 
-  const handleDownloadClick = () => {
-    // Add logic to trigger the file download (e.g., generating a report or downloading a file)
-    console.log("Download initiated");
-  };
 
   return (
     <div className="h-screen bg-gradient-to-b from-black via-gray-900 to-gray-950 flex flex-col justify-between p-5">
