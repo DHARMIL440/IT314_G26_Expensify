@@ -1,7 +1,6 @@
 import { pgTable, serial, varchar, integer, timestamp } from "drizzle-orm/pg-core"; 
 import { sql } from "drizzle-orm";
 
-// Budgets table definition
 export const Budgets = pgTable('budgets', {
     id: serial('id').primaryKey(),
     name: varchar('name').notNull(),
@@ -10,7 +9,6 @@ export const Budgets = pgTable('budgets', {
     createdBy: varchar('createdBy').notNull(),
 });
 
-// Expenses table definition
 export const Expenses = pgTable("expenses", {
     id: serial('id').primaryKey(),
     name: varchar('name').notNull(),

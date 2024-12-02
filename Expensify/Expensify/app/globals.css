@@ -2,30 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Reset default margins and padding for html and body */
 @layer base {
   html, body {
-    @apply h-full w-full m-0 p-0; /* Ensure no default margin or padding */
+    @apply h-full w-full m-0 p-0; 
   }
 
   * {
-    @apply border-border; /* Apply border color utility */
+    @apply border-border; 
   }
 
   body {
-    @apply bg-background text-foreground; /* Set background and text colors */
-    font-family: Arial, Helvetica, sans-serif; /* Set custom font family */
+    @apply bg-background text-foreground;
+    font-family: Arial, Helvetica, sans-serif;
   }
 }
 
-/* Custom utility class for text balance */
 @layer utilities {
   .text-balance {
-    text-wrap: balance; /* Enable balanced text wrapping */
+    text-wrap: balance; 
   }
 }
 
-/* Define theme variables for light and dark modes */
 @layer base {
   :root {
     --background: 0 0% 100%;
